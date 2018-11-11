@@ -1,0 +1,22 @@
+{
+    "jhipsterdemo1App": {
+        "tag": {
+            "home": {
+                "title": "Tags",
+                "createLabel": "नवीन Tag तयार करा",
+                "createOrEditLabel": "Tag तयार किंवा संपादित करा"
+            },
+            "created": "Tag [identifier: {{ param }}] तयार आहे",
+            "updated": "Tag [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Tag [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Tag [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Tag"
+            },
+            "name": "Name",
+            "entry": "Entry"
+        }
+    }
+}

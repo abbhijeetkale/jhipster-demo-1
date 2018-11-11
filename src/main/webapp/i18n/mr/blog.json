@@ -1,0 +1,23 @@
+{
+    "jhipsterdemo1App": {
+        "blog": {
+            "home": {
+                "title": "Blogs",
+                "createLabel": "नवीन Blog तयार करा",
+                "createOrEditLabel": "Blog तयार किंवा संपादित करा"
+            },
+            "created": "Blog [identifier: {{ param }}] तयार आहे",
+            "updated": "Blog [identifier: {{ param }}] सुधारित केले आहे",
+            "deleted": "Blog [identifier: {{ param }}] हटविले आहे",
+            "delete": {
+                "question": "Blog [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+            },
+            "detail": {
+                "title": "Blog"
+            },
+            "name": "Name",
+            "handle": "Handle",
+            "user": "User"
+        }
+    }
+}
