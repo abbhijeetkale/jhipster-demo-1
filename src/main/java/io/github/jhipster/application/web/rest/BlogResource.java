@@ -85,8 +85,8 @@ public class BlogResource {
     @GetMapping("/blogs")
     @Timed
     public List<Blog> getAllBlogs() {
-        log.debug("REST request to get all Blogs");
-        return blogRepository.findAll();
+        log.debug("REST request to get all Blogs for the user");
+        return blogRepository.findByUserIsCurrentUser();
     }
 
     /**
