@@ -33,13 +33,13 @@ public class Entry implements Serializable {
     private String title;
 
     
-    @Lob
+    //@Lob
     @Column(name = "content", nullable = false)
     private String content;
 
-    @NotNull
-    @Column(name = "jhi_date", nullable = false)
-    private Instant date;
+    //@NotNull
+    @Column(name = "jhi_date")
+    private String date;
 
     @ManyToOne
     @JsonIgnoreProperties("")
@@ -87,16 +87,16 @@ public class Entry implements Serializable {
         this.content = content;
     }
 
-    public Instant getDate() {
+    public String getDate() {
         return date;
     }
 
-    public Entry date(Instant date) {
+    public Entry date(String date) {
         this.date = date;
         return this;
     }
 
-    public void setDate(Instant date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
