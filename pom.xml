@@ -6,7 +6,7 @@
     <artifactId>jhipsterdemo-1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Jhipsterdemo 1</name>
+    <name>Jhipsterdemo</name>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->
