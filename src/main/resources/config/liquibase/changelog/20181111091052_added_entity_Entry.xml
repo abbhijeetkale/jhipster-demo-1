@@ -39,7 +39,7 @@
 
             <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
         </createTable>
-        <dropDefaultValue tableName="entry" columnName="jhi_date" columnDataType="datetime"/>
+        <!--<dropDefaultValue tableName="entry" columnName="jhi_date" columnDataType="datetime"/>-->
         
         <createTable tableName="entry_tag">
             <column name="tags_id" type="bigint">
@@ -50,7 +50,7 @@
             </column>
         </createTable>
 
-        <addPrimaryKey columnNames="entries_id, tags_id" tableName="entry_tag"/>
+        <!--<addPrimaryKey columnNames="entries_id, tags_id" tableName="entry_tag"/>-->
         
     </changeSet>
     <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
